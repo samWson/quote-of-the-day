@@ -11,7 +11,17 @@ Metacello new
     githubUser: 'samwson'
     project: 'quote-of-the-day'
     commitish: ''
-    path: ''
+    path: '';
+    baseline: 'SWQuoteOfTheDay';
+    load
+```
+
+## Usage
+
+To run the program use `SWQuoteOfTheDay class>>#main`:
+
+```smalltalk
+SWQuoteOfTheDay main
 ```
 
 ## License
